@@ -156,3 +156,41 @@ p {
     }
 
     }
+
+    .section-networks {
+        background-color: #fff;
+        margin-top: -170px;
+        padding-top: 240px;
+        padding-bottom: 50px;
+
+        h2 {
+            font-family: 'playfair Display',serif;
+            font-weight: bold;
+            font-size: 40px;
+
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    .section-testimonial-heading {
+        background: linear-gradient(#fff 0%,#5e83f1 100%);
+        padding-top: 50px;
+        min-height: 506px;
+
+        h2 {
+            font-family: "playfair Display",serif;
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+    }
