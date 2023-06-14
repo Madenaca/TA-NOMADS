@@ -5,7 +5,7 @@ body {
 
 }
 
-
+//navbar
 .navbar-brand {
     img {
         max-height: 40px;
@@ -46,7 +46,7 @@ body {
     }
 }
 
-
+//header
 header {
     padding: 180px 0 165px;
     margin-top: -70px;
@@ -79,6 +79,7 @@ header {
     }
 }
 
+//statistik
 .section-stats {
 margin-top: -50px;
 
@@ -144,21 +145,22 @@ p {
             }
             .travel-button {
                 .btn-travel-details {
-                    background-color: #ff9e53;
-                    color: #fff;
-
-                    &.hover {
-                    background-color: #f5bf96; 
-                    color: #fff;
+                    background-color: #fc6e02;
+                    color : #fff;
+            
+                    &:hover {
+                        background-color: #ffaa69;
+                        color: #fff;
+                    }
                 }
-            }
         }
     }
 
     }
 
+    //networks
     .section-networks {
-        background-color: #fff;
+        background-color: #81c7f5;
         margin-top: -170px;
         padding-top: 240px;
         padding-bottom: 50px;
@@ -179,6 +181,7 @@ p {
         }
     }
 
+    //testimonial
     .section-testimonial-heading {
         background: linear-gradient(#fff 0%,#5e83f1 100%);
         padding-top: 50px;
@@ -192,5 +195,63 @@ p {
 
         p {
             font-size: 18px;
+        }
+    }
+
+    .section-testimonial-content {
+        margin-top: -300px;
+        padding-bottom: 50px;
+
+        .card-tstimonial {
+            padding: 40px 20px 10px;
+            border-radius: 11px;
+            margin-bottom: 20px;
+
+            .testimonial-content {
+                min-height: 380px;
+            }
+
+            h3 {
+                font-size: 22px;
+
+            }
+
+            .testimonial {
+                font-weight: 200;
+                font-size: 26px;
+                color: #6e6e6e;
+                min-height: 160px;
+            }
+
+            .trip-to {
+                font-weight: normal;
+                font-size: 26px;
+                color: #6e6e6e;
+            }
+
+            hr {
+                margin-left: -20px;
+                margin-right: -20px;
+            }
+        }
+
+        .btn-get-started {
+            background-color: #fc6e02;
+            color : #fff;
+    
+            &:hover {
+                background-color: #ffaa69;
+                color: #fff;
+            }
+        }
+
+        .btn-need-help {
+            background-color: #7c7b7b;
+            color : #c3c3c3;
+    
+            &:hover {
+                background-color: #f2f2f2;
+                color: #c3c3c3;
+            }
         }
     }
