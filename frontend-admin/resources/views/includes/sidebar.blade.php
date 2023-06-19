@@ -18,6 +18,24 @@
         <span>Beranda</span></a>
 </li>
 
+
+<li class="nav-item active">
+    <a class="nav-link" href="index.html">
+        <i class="fas fa-fw fa-hotel"></i>
+        <span>Paket Travel</span></a>
+</li>
+
+<li class="nav-item active">
+    <a class="nav-link" href="index.html">
+        <i class="fas fa-fw fa-images"></i>
+        <span>Galeri Travel</span></a>
+</li>
+
+<li class="nav-item active">
+    <a class="nav-link" href="index.html">
+        <i class="fas fa-fw fa-dollar-sign"></i>
+        <span>Transaksi</span></a>
+</li>
 <hr class="sidebar-divider">
 
 <!-- Sidebar Toggler (Sidebar) -->
