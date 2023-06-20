@@ -112,10 +112,89 @@ header .btn-get-started:hover {
   color: #fff;
 }
 .section-popular-content .section-popular-travel .travel-button .btn-travel-details {
-  background-color: #ff9e53;
+  background-color: #fc6e02;
   color: #fff;
 }
-.section-popular-content .section-popular-travel .travel-button .btn-travel-details.hover {
-  background-color: #f5bf96;
+.section-popular-content .section-popular-travel .travel-button .btn-travel-details:hover {
+  background-color: #ffaa69;
   color: #fff;
+}
+
+.section-networks {
+  background-color: #81c7f5;
+  margin-top: -170px;
+  padding-top: 240px;
+  padding-bottom: 50px;
+}
+.section-networks h2 {
+  font-family: "playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-networks p {
+  font-size: 18px;
+}
+.section-networks img {
+  max-width: 100%;
+}
+
+.section-testimonial-heading {
+  background: linear-gradient(#fff 0%, #5e83f1 100%);
+  padding-top: 50px;
+  min-height: 506px;
+}
+.section-testimonial-heading h2 {
+  font-family: "playfair Display", serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.section-testimonial-heading p {
+  font-size: 18px;
+}
+
+.section-testimonial-content {
+  margin-top: -300px;
+  padding-bottom: 50px;
+}
+.section-testimonial-content .card-tstimonial {
+  padding: 40px 20px 10px;
+  border-radius: 11px;
+  margin-bottom: 20px;
+}
+.section-testimonial-content .card-tstimonial .testimonial-content {
+  min-height: 380px;
+}
+.section-testimonial-content .card-tstimonial h3 {
+  font-size: 22px;
+}
+.section-testimonial-content .card-tstimonial .testimonial {
+  font-weight: 200;
+  font-size: 26px;
+  color: #6e6e6e;
+  min-height: 160px;
+}
+.section-testimonial-content .card-tstimonial .trip-to {
+  font-weight: normal;
+  font-size: 26px;
+  color: #6e6e6e;
+}
+.section-testimonial-content .card-tstimonial hr {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.section-testimonial-content .btn-get-started {
+  background-color: #fc6e02;
+  color: #fff;
+}
+.section-testimonial-content .btn-get-started:hover {
+  background-color: #ffaa69;
+  color: #fff;
+}
+.section-testimonial-content .btn-need-help {
+  background-color: #7c7b7b;
+  color: #c3c3c3;
+}
+.section-testimonial-content .btn-need-help:hover {
+  background-color: #f2f2f2;
+  color: #c3c3c3;
 }/*# sourceMappingURL=main.css.map */
